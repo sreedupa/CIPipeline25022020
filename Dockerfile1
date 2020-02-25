@@ -1,4 +1,0 @@
-FROM ubuntu:trusty
-LABEL MAINTAINER sd@oracle.com
-ENTRYPOINT ["/bin/ping","-c3"]
-CMD ["localhost"]
